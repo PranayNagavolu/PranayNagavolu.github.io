@@ -1,12 +1,18 @@
-<div id="about" class="jumbotron jumbotron-fluid m-0 shadow bg-deep-blue d-flex align-items-center" style="height: 90vh; position: relative;">
+<!-- container with about section starts here-->
+<div id="about" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
+    style="height: 100vh; position: relative;">
     <div class="container">
         <div class="row text-center">
+
+            <!--This block is to hide on large devices-->
             <div class="d-sm-block d-md-none col-md-6">
-                <img class="img-fluid" src="assets/suit.jpg" style="border-radius: 50%; max-width: 200px;" alt="">
+                <img class="img-fluid" src="assets/suit.jpg" style="border-radius: 50%; max-width: 150px;" alt="">
                 <div class="font-25 text-white font-varela mt-3">
                     Pranay Nagavolu
                 </div>
             </div>
+
+            <!--This block is to hide on small devices-->
             <div class="d-none d-md-block col-md-6">
                 <img class="img-fluid" src="assets/suit.jpg" style="border-radius: 50%; max-width: 300px;" alt="">
                 <div class="font-25 text-white font-varela mt-3">
@@ -21,146 +27,158 @@
                     enthusiasm to always learn and improve myself, strong believer in smart work.
                 </div>
             </div>
-            
+
         </div>
         <div class="d-none d-md-block text-center">
-            <span><img class="down-arrow" src="assets/down.svg" height="50px" alt="" (click)="scroll('education')"></span>
+            <span><img class="down-arrow pointer" src="assets/down.svg" height="50px" alt=""
+                    (click)="scroll('education')"></span>
         </div>
     </div>
 </div>
-<div id="education" class="jumbotron jumbotron-fluid m-0 shadow bg-deep-blue d-flex align-items-center" style="height: 90vh; position: relative;">
+
+
+<!-- container with Education section starts here-->
+<div id="education" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
+    style="height: 100vh; position: relative;">
     <div class="container">
         <div class="row text-center text-green">
-           <div class="col font-25 mb-5">Education</div>
+            <div class="col font-25 mb-5">Education</div>
         </div>
         <div class="row d-flex text-center mt-5 font-18">
             <div class="col-sm-12 col-md mt-5">
-               <div class="text-white">
+                <div class="text-white">
                     Schooling(2015)
-               </div>
-                <div class="text-gray">
-                    Little Angels school, VSKP 
                 </div>
                 <div class="text-gray">
-                   8.2
+                    Little Angels school, VSKP
+                </div>
+                <div class="text-gray">
+                    8.2
                 </div>
             </div>
             <div class="col-sm-12 col-md mt-5">
                 <div class="text-white">
                     Intermediate (2015-2017)
                 </div>
-                 <div class="text-gray">
-                    Ascent Junior college, VSKP 
-                 </div>
-                 <div class="text-gray">
+                <div class="text-gray">
+                    Ascent Junior college, VSKP
+                </div>
+                <div class="text-gray">
                     75%
-                 </div>
-             </div>
-             <div class="col-sm-12 col-md mt-5">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md mt-5">
                 <div class="text-white">
                     B.Tech, CSE (2017-2021)
                 </div>
-                 <div class="text-gray">
-                    Gitam(Deemed to be University), VSKP 
-                 </div>
-             </div>
+                <div class="text-gray">
+                    Gitam(Deemed to be University), VSKP
+                </div>
+            </div>
         </div>
         <div class="d-none d-md-block text-center">
-            <span><img class="down-arrow" src="assets/down.svg" height="50px" alt="" (click)="scroll('skills')"></span>
+            <span><img class="down-arrow pointer" src="assets/down.svg" height="50px" alt="" (click)="scroll('skills')"></span>
         </div>
     </div>
 </div>
-<div id="skills" class="jumbotron jumbotron-fluid m-0 shadow bg-deep-blue d-flex align-items-center" style="height: 90vh; position: relative;">
+
+
+<!-- container with Skills and certifications section starts here-->
+<div id="skills" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
+    style="height: 100vh; position: relative;">
     <div class="container">
         <div class="row mb-5 text-center text-purple">
-           <div class="col font-25">Skills and Certifications</div>
+            <div class="col font-25">Skills and Certifications</div>
         </div>
         <div class="row d-flex text-center mt-5 font-18">
             <div class="col-sm-12 col-md mt-5">
-               <div class="text-white">
-                    • Web-Technologies: 
-               </div>
+                <div class="text-white">
+                    • Web-Technologies:
+                </div>
                 <div class="text-gray">
-                    HTML, CSS, JAVA SCRIPT, ANGULAR 
+                    HTML, CSS, JAVA SCRIPT, ANGULAR
                 </div>
             </div>
             <div class="col-sm-12 col-md mt-5">
                 <div class="text-white">
                     • Programming Languages:
                 </div>
-                 <div class="text-gray">
-                    C, C++, JAVA 
-                 </div>
-             </div>
-             <div class="col-sm-12 col-md mt-5">
+                <div class="text-gray">
+                    C, C++, JAVA
+                </div>
+            </div>
+            <div class="col-sm-12 col-md mt-5">
                 <div class="text-white">
                     Red Hat Certified System Administrator:
                 </div>
-                 <div class="text-gray">
-                    Certification ID: 180-216-046 
-                 </div>
-             </div>
+                <div class="text-gray">
+                    Certification ID: 180-216-046
+                </div>
+            </div>
         </div>
         <div class="d-none d-md-block text-center">
-            <span><img class="down-arrow" src="assets/down.svg" height="50px" alt="" (click)="scroll('works')"></span>
+            <span><img class="down-arrow pointer" src="assets/down.svg" height="50px" alt="" (click)="scroll('works')"></span>
         </div>
     </div>
 </div>
-<div id="works" class="jumbotron jumbotron-fluid m-0 shadow bg-deep-blue d-flex align-items-center" style="position: relative;">
+
+
+<!-- container with Experience  section starts here-->
+<div id="works" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
+    style="position: relative;">
     <div class="container">
         <div class="row text-center text-green mb-5">
-           <div class="col-12 font-25">
-            Previous Work Experiences
-           </div>
+            <div class="col-12 font-25">
+                Previous Work Experiences
+            </div>
         </div>
         <div class="row mt-5">
             <div class="col-12 font-22 text-blue">
-                Working with Fountane: 
+                Working with Fountane:
             </div>
             <div class="col-12 font-18 text-white mt-3">
-               Project Name:<span class="text-gray"> Dhaatri </span>
+                Project Name:<span class="text-gray"> Dhaatri </span>
             </div>
             <div class="col-12 font-18 text-white mt-2">
                 Project base:<span class="text-gray"> Angular </span>
-             </div>
-             <div class="col-12 font-18 text-gray mt-3">
+            </div>
+            <div class="col-12 font-18 text-gray mt-3">
                 It's motive is to help all those children who deprive of maternal milk
                 due to various reasons by providing it from donators. My work has mostly been in
                 developing the UI(User Interface) for various components
-             </div>
+            </div>
         </div>
         <div class="row mt-5">
             <div class="col-12 font-22 text-blue">
-                Training and placement data management system: 
+                Training and placement data management system:
             </div>
             <div class="col-12 font-18 text-white mt-3">
-               Project Name:<span class="text-gray"> Datatrove </span>
+                Project Name:<span class="text-gray"> Datatrove </span>
             </div>
             <div class="col-12 font-18 text-white mt-2">
                 Project base:<span class="text-gray"> Angular </span>
-             </div>
-             <div class="col-12 font-18 text-gray mt-3">
+            </div>
+            <div class="col-12 font-18 text-gray mt-3">
                 It is a data management system built for the DoTP GITAM, used for
                 managing students data by categorising the control to different levels, the work I’m
-                involved with is developing UI and integrations. 
-             </div>
+                involved with is developing UI and integrations.
+            </div>
         </div>
         <div class="row mt-5">
             <div class="col-12 font-22 text-blue">
-                Work at IEEE(Student chapter): 
+                Work at IEEE(Student chapter):
             </div>
             <div class="col-12 font-18 text-white mt-3">
-              Duties involved:<span class="text-gray"> Designing and Management </span>
+                Duties involved:<span class="text-gray"> Designing and Management </span>
             </div>
-             <div class="col-12 font-18 text-gray mt-3">
+            <div class="col-12 font-18 text-gray mt-3">
                 Played the role of a designer and an administrator in the IEEE student chapter for a
                 year. My duties involved poster designing (part of designing), managing and organizing
                 events, constant monitoring of work done by members in all domains. Mentioned below
                 are a few fests I worked in <br>
                 • NIRVANA 2.0 <br>
-                • IMITOR 2k18  
-             </div>
+                • IMITOR 2k18
+            </div>
         </div>
-
     </div>
 </div>

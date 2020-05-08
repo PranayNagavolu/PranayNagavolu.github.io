@@ -40,6 +40,9 @@ body{
 .font-25{
     font-size: 25px;
 }
+.pointer{
+    cursor: pointer;
+}
 
 @media screen and (min-width: 750px) {
     .font-25{

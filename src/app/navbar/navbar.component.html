@@ -1,3 +1,22 @@
-<nav class="navbar bg-deep-blue shadow-sm sticky-top"  style="height: 10vh;">
-   <a class="navbar-brand text-blue" href="#">Navbar</a>
- </nav>
+  <div class="row bg-deep-blue shadow px-5 fixed-top d-flex align-items-center" style="height: 10vh; width: 100%;">
+    <div class="col-8 d-none d-md-block font-18 text-blue">
+      <div id="displayquote" class="float-left" style="opacity: 0.8;">
+
+      </div>
+      <span class="d-none d-lg-block"><button (click)="change()" class="btn ml-3 text-blue" style="background-color: #151d32;">change quote</button></span>
+    </div>
+    <div class="col-4 d-none d-md-block text-white">
+      <div class=" float-right">
+        <span class="mr-4 pointer" (click)="scroll('education')">Educaion</span>
+        <span class="mr-4 pointer" (click)="scroll('skills')">Skills</span>
+        <span class="pointer" (click)="scroll('works')">Works</span>
+      </div>
+    </div>
+    <div class="col-12 d-sm-block d-md-none text-white">
+      <div class="text-center">
+        <span class="mr-4 pointer" (click)="scroll('education')">Educaion</span>
+        <span class="mr-4 pointer" (click)="scroll('skills')">Skills</span>
+        <span class="pointer" (click)="scroll('works')">Works</span>
+      </div>
+    </div>
+  </div>
