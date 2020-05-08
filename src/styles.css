@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #171626;
+}
+.font-varela{
+    font-family: 'Varela Round', sans-serif;
+}
+.bg-deep-blue{
+    background-color: #171626;
+}
+.down-arrow{
+    position: absolute;
+    bottom: 0; 
+    transform: translate(-50%, -50%);
+}
+.text-blue{
+    color: #1e6dd2 !important;
+}
+.text-green{
+    color: #31905c !important;
+}
+.text-gray{
+    color:	#6c6f7e !important;
+}
+.text-white{
+    color: #cccccc !important;
+}
+.text-purple{
+    color: #ab47bc !important;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-25{
+    font-size: 25px;
+}
+
+@media screen and (min-width: 750px) {
+    .font-25{
+        font-size: 35px;
+    }
+    .font-18{
+        font-size: 22px;
+    }
+    .font-22{
+        font-size: 25px;
+    }
+  }
