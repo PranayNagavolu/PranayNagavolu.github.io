@@ -31,6 +31,9 @@ body{
 .text-purple{
     color: #ab47bc !important;
 }
+.font-18-18 {
+    font-size: 18px;
+}
 .font-18 {
     font-size: 18px;
 }
