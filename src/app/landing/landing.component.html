@@ -1,191 +1,240 @@
+<div class="row fixed-top bg-deep-blue m-0 shadow p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-deep-blue">
+        <a class="navbar-brand d-flex align-items-center text text-blue" href="#"><span class="material-icons">code</span>Full Stack Developer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Works</a>
+            </li>
+          </ul>
+        </div>
+      </nav>        
+  </div>
+
 <!-- container with about section starts here-->
-<div id="about" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
-    style="height: 100vh; position: relative;">
-    <div class="container">
-        <div class="row text-center">
-
-            <!--This block is to hide on large devices-->
-            <div class="d-sm-block d-md-none col-md-6">
-                <img class="img-fluid" src="assets/suit.jpg" style="border-radius: 50%; max-width: 150px;" alt="">
-                <div class="font-25 text-white font-varela mt-3">
-                    Pranay Nagavolu
-                </div>
+<div id="about" class="container bg-deep-blue">
+    <div class="row d-flex align-items-center mt-6">
+        <div class="col-12 col-sm-8 col-md-4 mx-auto px-5 px-md-2">
+            <img class="img-fluid" src="assets/hoodie.jpg" style="border-radius: 20px;" alt="Sri Pranay Nagavolu">
+            <div class="font-25 text-white font-varela">
+                Sri Pranay Nagavolu
             </div>
-
-            <!--This block is to hide on small devices-->
-            <div class="d-none d-md-block col-md-6">
-                <img class="img-fluid" src="assets/suit.jpg" style="border-radius: 50%; max-width: 300px;" alt="">
-                <div class="font-25 text-white font-varela mt-3">
-                    Pranay Nagavolu
-                </div>
+          </div>
+        <div class="col-sm-12 offset-1 col-md-7 my-4 font-25 text-blue font-varela">
+            About me
+            <div class="font-18 font-weight-light text-gray font-varela">
+                <p>Welcome!</p>
+                <p>I'm a <span class="text-blue">Junior Full Stack Developer</span> with over 3 years of experience and a Master's
+                in Computer Science. I've shouldered a profound responsibility in diverse industries, including
+                technology, business, and design. I specialize in streamlining projects, consistently reducing
+                timelines by 25%, and enhancing load times. Proficient in a wide range of technologies, including
+                <span class="text-white">Angular, Node.js, Django, SQL</span>, and more, I'm deeply committed to pushing the boundaries of software
+                development to consistently deliver exceptional results.</p>
             </div>
-            <div class="col-sm-12 col-md-6 font-25 text-blue font-varela mb-2 mt-5">
-                About
-                <div class="font-18 font-weight-light text-gray font-varela">
-                    This is Pranay Nagavolu, currently pursuing my bachelor degree in Computer Science
-                    Engineering at Gitam(Deemed to be University). I am a Motivated team player with full
-                    enthusiasm to always learn and improve myself, strong believer in smart work.
-                </div>
-            </div>
-
-        </div>
-        <div class="d-none d-md-block text-center">
-            <span><img class="down-arrow pointer" src="assets/down.svg" height="50px" alt="" (click)="scroll('education')"></span>
-        </div>
-        <div class="d-sm-block d-md-none text-center">
-            <span><img class="down-arrow pointer" src="assets/down.svg" height="30px" alt="" (click)="scroll('education')"></span>
         </div>
     </div>
 </div>
+
 
 
 <!-- container with Education section starts here-->
-<div id="education" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
-    style="height: 100vh; position: relative;">
-    <div class="container">
-        <div class="row text-center text-green">
-            <div class="col font-25 mb-5">Education</div>
-        </div>
-        <div class="row d-flex text-center mt-5 font-18">
-            <div class="col-sm-12 col-md mt-5">
-                <div class="text-white">
-                    Schooling(2015)
-                </div>
-                <div class="text-gray">
-                    Little Angels school, VSKP
-                </div>
-                <div class="text-gray">
-                    8.2
-                </div>
-            </div>
-            <div class="col-sm-12 col-md mt-5">
-                <div class="text-white">
-                    Intermediate (2015-2017)
-                </div>
-                <div class="text-gray">
-                    Ascent Junior college, VSKP
-                </div>
-                <div class="text-gray">
-                    75%
-                </div>
-            </div>
-            <div class="col-sm-12 col-md mt-5">
-                <div class="text-white">
-                    B.Tech, CSE (2017-2021)
-                </div>
-                <div class="text-gray">
-                    Gitam(Deemed to be University), VSKP
-                </div>
-            </div>
-        </div>
-        <div class="d-none d-md-block text-center">
-            <span><img class="down-arrow pointer" src="assets/down.svg" height="50px" alt="" (click)="scroll('skills')"></span>
-        </div>
-        <div class="d-sm-block d-md-none text-center">
-            <span><img class="down-arrow pointer" src="assets/down.svg" height="30px" alt="" (click)="scroll('skills')"></span>
-        </div>
+<div id="education" class="container bg-deep-blue mt-5">
+    <div class="row text-center text-green">
+      <div class="col-12 font-25 mb-3 mb-md-5">
+        <span class="material-icons material-icons-outlined">school</span>
+        Education
+      </div>
     </div>
-</div>
+    <div class="row text-center font-18">
+      <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
+        <div class="text-white">
+          Masters, Computer and Information Science <br> (2021-2023)
+        </div>
+        <div class="text-gray">
+          University of North Texas, Denton, TX
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
+        <div class="text-white">
+          Bachelor, Computer Science <br> (2017-2021)
+        </div>
+        <div class="text-gray">
+          Gitam University, India
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
+        <div class="text-white">
+          High School (2015-2017)
+        </div>
+        <div class="text-gray">
+          Ascent, India
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
 
 
 <!-- container with Skills and certifications section starts here-->
-<div id="skills" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
-    style="height: 100vh; position: relative;">
+<div id="skills" class="m-0 bg-deep-blue d-flex align-items-center mt-5">
     <div class="container">
-        <div class="row mb-5 text-center text-purple">
-            <div class="col font-25">Skills and Certifications</div>
-        </div>
-        <div class="row d-flex text-center mt-5 font-18">
-            <div class="col-sm-12 col-md mt-5">
-                <div class="text-white">
-                    • Web-Technologies:
-                </div>
-                <div class="text-gray">
-                    HTML, CSS, JAVA SCRIPT, ANGULAR
-                </div>
-            </div>
-            <div class="col-sm-12 col-md mt-5">
-                <div class="text-white">
-                    • Programming Languages:
-                </div>
-                <div class="text-gray">
-                    C, C++, JAVA
-                </div>
-            </div>
-            <div class="col-sm-12 col-md mt-5">
-                <div class="text-white">
-                    Red Hat Certified System Administrator:
-                </div>
-                <div class="text-gray">
-                    Certification ID: 180-216-046
-                </div>
+        <div class="row mb-3 mb-md-5 text-center text-purple">
+            <div class="col font-25 mb-3">
+                <span class="material-icons material-icons-outlined">terminal</span>
+                Skills and Tools
             </div>
         </div>
-        <div class="d-none d-md-block text-center">
-            <span><img class="down-arrow pointer" src="assets/down.svg" height="50px" alt="" (click)="scroll('works')"></span>
-        </div>
-        <div class="d-sm-block d-md-none text-center">
-            <span><img class="down-arrow pointer" src="assets/down.svg" height="30px" alt="" (click)="scroll('works')"></span>
+        <div class="row d-flex text-center font-18">
+            <div class="col-sm-12 col-md-4 mt-5">
+                <div class="text-white mb-2">
+                    Web-Technologies:
+                </div>
+                <div class="text-gray text-center">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-1">JavaScript/TypeScript</li>
+                        <li class="list-group-item py-1">HTML5/CSS3</li>
+                        <li class="list-group-item py-1">SASS</li>
+                        <li class="list-group-item py-1">REST APIs</li>
+                        <li class="list-group-item py-1">Django</li>
+                        <li class="list-group-item py-1">Express JS</li>
+                        <li class="list-group-item py-1">Angular</li>
+                        <li class="list-group-item py-1">Node</li>
+                        <li class="list-group-item py-1">React</li>
+                        <li class="list-group-item py-1">Material UI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mt-5">
+                <div class="text-white mb-2">
+                    Programming Languages and Concepts:
+                </div>
+                <div class="text-gray">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-1">Python</li>
+                        <li class="list-group-item py-1">Java</li>
+                        <li class="list-group-item py-1">C/C++</li>
+                        <li class="list-group-item py-1">Data Structures</li>
+                        <li class="list-group-item py-1">Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mt-5">
+                <div class="text-white">
+                    Other Tools and Miscellaneous:
+                </div>
+                <div class="text-gray">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-1">SQL</li>
+                        <li class="list-group-item py-1">ASP</li>
+                        <li class="list-group-item py-1">.NET</li>
+                        <li class="list-group-item py-1">Model View Control</li>
+                        <li class="list-group-item py-1">Git</li>
+                        <li class="list-group-item py-1">Postman</li>
+                        <li class="list-group-item py-1">Photoshop</li>
+                        <li class="list-group-item py-1">Docker</li>
+                        <li class="list-group-item py-1">Figma</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 
 <!-- container with Experience  section starts here-->
-<div id="works" class="jumbotron jumbotron-fluid m-0 bg-deep-blue d-flex align-items-center"
-    style="position: relative;">
+<div id="works" class="m-0 bg-deep-blue d-flex align-items-center mt-5">
     <div class="container">
         <div class="row text-center text-green mb-5">
             <div class="col-12 font-25">
+                <span class="material-icons material-icons-outlined">work_history</span>
                 Previous Work Experiences
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-12 font-22 text-blue">
-                Working with Fountane:
+        <div class="row bg-deep-blue d-flex justify-content-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="card bg-deep-blue shadow-sm">
+                    <div class="card-header font-22" data-toggle="collapse" href="#collapseExample">
+                        <div class="text-blue">Working with Fountane (Jun 2020 to Sep 2020)</div>
+                        <div class="text-gray">as a Junior Software Developer Intern</div>
+                    </div>
+                    <div id="collapseExample" class="collapse">
+                        <div class="card-body text-gray font-18">
+                            <p> • Facilitated a design thinking research program, collaborating with cross-functional
+                                teams to redefine problems and discover effective solutions.
+                                <br> • Awarded Most Outstanding Student Intern for contributions and leadership and
+                                guiding 4 other interns through the internship experience.
+                                <br> • Utilized AWS Cloud Services for web operations and demonstrated competence in
+                                cloud computing with AWS RDS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 font-18 text-white mt-3">
-                Project Name:<span class="text-gray"> Dhaatri </span>
+            <div class="col-sm-12 mb-3 col-md-6">
+                <div class="card bg-deep-blue shadow-sm">
+                    <div class="card-header font-22" data-toggle="collapse" href="#collapseExample2">
+                        <div class="text-blue">Working with DeltaNow (Jan 2020 to Mar 2021)</div>
+                        <div class="text-gray">as a Front-End Software Engineer</div>
+                    </div>
+                    <div id="collapseExample2" class="collapse">
+                        <div class="card-body text-gray font-18">
+                            <p> • Facilitated effective collaboration among design and development teams, reducing
+                                Datatrove's product development time by 20% and accelerating feature delivery by 30% for
+                                the DoAA Data Management Solution.
+                                <br> • Headed front-end UI development and integration for various product modules,
+                                using Bootstrap, Angular, Node, SQL, MongoDB, and Django; improved load times by 50% and
+                                enhanced customer retention by 15%.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 font-18 text-white mt-2">
-                Project base:<span class="text-gray"> Angular </span>
+            <div class="col-sm-12 mb-3 col-md-6">
+                <div class="card bg-deep-blue shadow-sm">
+                    <div class="card-header font-22" data-toggle="collapse" href="#collapseExample3">
+                        <div class="text-blue">Working with Caarya (Oct 2020 to Mar 2021)</div>
+                        <div class="text-gray">as a Junior Software Developer</div>
+                    </div>
+                    <div id="collapseExample3" class="collapse">
+                        <div class="card-body text-gray font-18">
+                            <p> • Designed web applications with unique structures and aesthetics using Angular and
+                                Node, enhancing cross-functional collaboration, and delivering innovative solutions with
+                                25% increased project efficiency following Agile SDLC.
+                                <br> • Incorporated AWS Cloud Services for web operations, reducing costs by 15% while
+                                maintaining peak performance with AWS RDS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 font-18 text-gray mt-3">
-                It's motive is to help all those children who deprive of maternal milk
-                due to various reasons by providing it from donators. My work has mostly been in
-                developing the UI(User Interface) for various components
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-12 font-22 text-blue">
-                Training and placement data management system:
-            </div>
-            <div class="col-12 font-18 text-white mt-3">
-                Project Name:<span class="text-gray"> Datatrove </span>
-            </div>
-            <div class="col-12 font-18 text-white mt-2">
-                Project base:<span class="text-gray"> Angular </span>
-            </div>
-            <div class="col-12 font-18 text-gray mt-3">
-                It is a data management system built for the DoTP GITAM, used for
-                managing students data by categorising the control to different levels, the work I’m
-                involved with is developing UI and integrations.
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-12 font-22 text-blue">
-                Work at IEEE(Student chapter):
-            </div>
-            <div class="col-12 font-18 text-white mt-3">
-                Duties involved:<span class="text-gray"> Designing and Management </span>
-            </div>
-            <div class="col-12 font-18 text-gray mt-3">
-                Played the role of a designer and an administrator in the IEEE student chapter for a
-                year. My duties involved poster designing (part of designing), managing and organizing
-                events, constant monitoring of work done by members in all domains. Mentioned below
-                are a few fests I worked in <br>
-                • NIRVANA 2.0 <br>
-                • IMITOR 2k18
+            <div class="col-sm-12 mb-3 col-md-6">
+                <div class="card bg-deep-blue shadow-sm">
+                    <div class="card-header font-22" data-toggle="collapse" href="#collapseExample4">
+                        <div class="text-blue">Work at IEEE (Student Chapter)</div>
+                        <div class="text-gray">in Designing and Managemen</div>
+                    </div>
+                    <div id="collapseExample4" class="collapse">
+                        <div class="card-body text-gray font-18">
+                            <p>Played the role of a designer and an administrator in the IEEE student chapter for 3
+                                years. My duties involved designing templates and banners for events, maintaining the
+                                website, managing and organizing
+                                events, constant monitoring of work done by members in all domains. Mentioned below
+                                are a few events I worked and organzed <br>
+                                • NIRVANA 2.0 <br>
+                                • IMITOR 2k18</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
