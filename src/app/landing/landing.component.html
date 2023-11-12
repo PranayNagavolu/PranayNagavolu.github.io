@@ -1,234 +1,247 @@
 <div [@fadeIn] class="container">
-<!-- container with about section starts here-->
-<div id="about" class="container bg-deep-blue" style="height: fit-content;">
-    <div class="row d-flex align-items-center mt-6">
-        <div class="col-12 col-sm-8 col-md-4 mx-auto px-5 px-md-2">
-            <img class="img-fluid" src="assets/hoodie.jpg" style="border-radius: 20px;" alt="Sri Pranay Nagavolu">
-            <div class="font-25 text-white">
-                Sri Pranay Nagavolu
+    <!-- container with about section starts here-->
+    <div id="about" class="container bg-deep-blue" style="height: fit-content;">
+        <div class="row d-flex align-items-center mt-6">
+            <div class="col-12 col-sm-8 col-md-4 mx-auto px-5 px-md-2">
+                <img class="img-fluid" src="assets/hoodie.jpg" style="border-radius: 20px;" alt="Sri Pranay Nagavolu">
+                <div class="font-25 text-white">
+                    Sri Pranay Nagavolu
+                </div>
             </div>
-          </div>
             <div class="col-sm-12 offset-1 col-md-7 my-4 font-22 font-weight-light text-gray">
                 <span class="font-25 text-blue"> About me <br> </span>
-                <p class="mt-2">Welcome! <br> I'm a <span class="text-blue">Junior Full Stack Developer</span> with over 3 years of experience and a Master's
-                in Computer Science. I've shouldered a profound responsibility in diverse industries, including
-                technology, business, and design. I specialize in streamlining projects, consistently reducing
-                timelines by 25%, and enhancing load times. Proficient in a wide range of technologies, including
-                <span class="text-white">Angular, Node.js, Django, SQL</span>, and more, I'm deeply committed to pushing the boundaries of software
-                development to consistently deliver exceptional results.
+                <p class="mt-2">Welcome! <br> I'm a <span class="text-blue">Junior Full Stack Developer</span> with over
+                    3 years of experience and a Master's
+                    in Computer Science. I've shouldered a profound responsibility in diverse industries, including
+                    technology, business, and design. I specialize in streamlining projects, consistently reducing
+                    timelines by 25%, and enhancing load times. Proficient in a wide range of technologies, including
+                    <span class="text-white">Angular, Node.js, Django, SQL</span>, and more, I'm deeply committed to
+                    pushing the boundaries of software
+                    development to consistently deliver exceptional results.
                 </p>
                 <div>
                     <!-- This is your component's HTML file -->
-                    <button class="btn btn-primary bg-deep-blue mt-2 d-none d-md-block" data-toggle="modal" data-target="#pdfModal">Here's my professional resume</button>
-                    <button class="btn btn-primary bg-deep-blue mt-2 d-block d-md-none" (click)="openPdf()">Here's my professional resume</button>
+                    <button class="btn btn-primary bg-deep-blue mt-2 d-none d-md-block" data-toggle="modal"
+                        data-target="#pdfModal">Here's my professional resume</button>
+                    <button class="btn btn-primary bg-deep-blue mt-2 d-block d-md-none" (click)="openPdf()">Here's my
+                        professional resume</button>
                     <!-- Modal -->
-                    <div class="modal fade" id="pdfModal" tabindex="-1" role="dialog" aria-labelledby="pdfModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content bg-deep-blue">
-                        <div class="modal-header text-white border-0 shadow-2">
-                            <h5 class="modal-title" id="pdfModalLabel">Resume</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span class="text-white" aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <iframe
-                            [src]="pdfSrc"
-                            width="100%"
-                            height="600px"
-                            frameborder="0"
-                            scrolling="no"
-                            allowfullscreen>
-                            </iframe>
-                        </div>
+                    <div class="modal fade" id="pdfModal" tabindex="-1" role="dialog" aria-labelledby="pdfModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content bg-deep-blue">
+                                <div class="modal-header text-white border-0 shadow-2">
+                                    <h5 class="modal-title" id="pdfModalLabel">Resume</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span class="text-white" aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe [src]="pdfSrc" width="100%" height="600px" frameborder="0" scrolling="no"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
 
                 </div>
             </div>
+        </div>
     </div>
-</div>
 
 
 
-<!-- container with Education section starts here-->
-<div class="container bg-deep-blue mt-6">
-    <div class="row text-center text-green">
-      <div class="col-12 font-25 mb-3 mb-md-5">
-        <span class="material-icons material-icons-outlined">school</span>
-        Education
-      </div>
-    </div>
-    <div class="row text-center font-18">
-      <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
-        <div class="text-white">
-          Masters, Computer and Information Science <br> (2021-2023)
-        </div>
-        <div class="text-gray">
-          University of North Texas, Denton, TX
-        </div>
-      </div>
-      <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
-        <div class="text-white">
-          Bachelor, Computer Science <br> (2017-2021)
-        </div>
-        <div class="text-gray">
-          Gitam University, India
-        </div>
-      </div>
-      <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
-        <div class="text-white">
-          High School (2015-2017)
-        </div>
-        <div class="text-gray">
-          Ascent, India
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
-
-
-<!-- container with Skills and certifications section starts here-->
-<div id="skills" class="m-0 bg-deep-blue d-flex align-items-center mt-5">
-    <div class="container">
-        <div class="row mb-3 mb-md-5 text-center text-purple">
-            <div class="col font-25">
-                <span class="material-icons material-icons-outlined">terminal</span>
-                Skills and Tools
+    <!-- container with Education section starts here-->
+    <div class="container bg-deep-blue mt-6">
+        <div class="row text-center text-green">
+            <div class="col-12 font-25 mb-3 mb-md-5">
+                <span class="material-icons material-icons-outlined">school</span>
+                Education
             </div>
         </div>
-        <div class="row d-flex text-center font-18">
-            <div class="col-sm-12 col-md-4">
-                <div class="text-white mb-2">
-                    Web-Technologies:
-                </div>
-                <div class="text-gray text-center">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item py-1">JavaScript/TypeScript</li>
-                        <li class="list-group-item py-1">HTML5/CSS3</li>
-                        <li class="list-group-item py-1">SASS</li>
-                        <li class="list-group-item py-1">REST APIs</li>
-                        <li class="list-group-item py-1">Django</li>
-                        <li class="list-group-item py-1">Express JS</li>
-                        <li class="list-group-item py-1">Angular</li>
-                        <li class="list-group-item py-1">Node</li>
-                        <li class="list-group-item py-1">React</li>
-                        <li class="list-group-item py-1">Material UI</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="text-white mb-2">
-                    Programming Languages and Concepts:
-                </div>
-                <div class="text-gray">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item py-1">Python</li>
-                        <li class="list-group-item py-1">Java</li>
-                        <li class="list-group-item py-1">C/C++</li>
-                        <li class="list-group-item py-1">Data Structures</li>
-                        <li class="list-group-item py-1">Algorithms</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
+        <div class="row text-center font-18">
+            <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
                 <div class="text-white">
-                    Other Tools and Miscellaneous:
+                    Masters, Computer and Information Science <br> (2021-2023)
                 </div>
                 <div class="text-gray">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item py-1">SQL</li>
-                        <li class="list-group-item py-1">ASP</li>
-                        <li class="list-group-item py-1">.NET</li>
-                        <li class="list-group-item py-1">Model View Control</li>
-                        <li class="list-group-item py-1">Git</li>
-                        <li class="list-group-item py-1">Postman</li>
-                        <li class="list-group-item py-1">Photoshop</li>
-                        <li class="list-group-item py-1">Docker</li>
-                        <li class="list-group-item py-1">Figma</li>
-                    </ul>
+                    University of North Texas, Denton, TX
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
+                <div class="text-white">
+                    Bachelor, Computer Science <br> (2017-2021)
+                </div>
+                <div class="text-gray">
+                    Gitam University, India
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3 mb-md-5 px-2">
+                <div class="text-white">
+                    High School (2015-2017)
+                </div>
+                <div class="text-gray">
+                    Ascent, India
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- container with Experience  section starts here-->
-<div id="works" class="m-0 bg-deep-blue d-flex align-items-center mt-5">
-    <div class="container">
-        <div class="row text-center text-green mb-5">
-            <div class="col-12 font-25">
-                <span class="material-icons material-icons-outlined">work_history</span>
-                Previous Work Experiences
+
+
+
+    <!-- container with Skills and certifications section starts here-->
+    <div id="skills" class="m-0 bg-deep-blue d-flex align-items-center mt-5">
+        <div class="container">
+            <div class="row mb-3 mb-md-5 text-center text-purple">
+                <div class="col font-25">
+                    <span class="material-icons material-icons-outlined">terminal</span>
+                    Skills and Tools
+                </div>
+            </div>
+            <div class="row d-flex text-center font-18">
+                <div class="col-sm-12 col-md-4">
+                    <div class="text-white mb-2">
+                        Web-Technologies:
+                    </div>
+                    <div class="text-gray text-center">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-1">JavaScript/TypeScript</li>
+                            <li class="list-group-item py-1">HTML5/CSS3</li>
+                            <li class="list-group-item py-1">SASS</li>
+                            <li class="list-group-item py-1">REST APIs</li>
+                            <li class="list-group-item py-1">Django</li>
+                            <li class="list-group-item py-1">Express JS</li>
+                            <li class="list-group-item py-1">Angular</li>
+                            <li class="list-group-item py-1">Node</li>
+                            <li class="list-group-item py-1">React</li>
+                            <li class="list-group-item py-1">Material UI</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="text-white mb-2">
+                        Programming Languages and Concepts:
+                    </div>
+                    <div class="text-gray">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-1">Python</li>
+                            <li class="list-group-item py-1">Java</li>
+                            <li class="list-group-item py-1">C/C++</li>
+                            <li class="list-group-item py-1">Data Structures</li>
+                            <li class="list-group-item py-1">Algorithms</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="text-white">
+                        Other Tools and Miscellaneous:
+                    </div>
+                    <div class="text-gray">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-1">SQL</li>
+                            <li class="list-group-item py-1">ASP</li>
+                            <li class="list-group-item py-1">.NET</li>
+                            <li class="list-group-item py-1">Model View Control</li>
+                            <li class="list-group-item py-1">Git</li>
+                            <li class="list-group-item py-1">Postman</li>
+                            <li class="list-group-item py-1">Photoshop</li>
+                            <li class="list-group-item py-1">Docker</li>
+                            <li class="list-group-item py-1">Figma</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="timeline">
-            <div *ngFor="let item of experience; let i = index" class="timeline-row">
-                <div class="timeline-time">
-                    {{item.duration}}
+    </div>
+
+    <!-- container with Experience  section starts here-->
+    <div id="works" class="m-0 bg-deep-blue d-flex align-items-center mt-5">
+        <div class="container">
+            <div class="row text-center text-green mb-5">
+                <div class="col-12 font-25">
+                    <span class="material-icons material-icons-outlined">work_history</span>
+                    Previous Work Experiences
                 </div>
-                <div class="timeline-content">
-                    <div class="card bg-deep-blue shadow-sm">
-                        <div class="card-header font-22" data-toggle="collapse" [attr.href]="'#collapseExample' + i">
-                            <div class="text-blue">{{item.company}}</div>
-                            <div class="text-gray">{{item.position}}</div>
-                        </div>
-                        <div id="collapseExample{{i}}" class="collapse">
-                            <div class="card-body text-gray font-18">
-                                <p *ngFor="let line of item.description">{{line}}
-                                </p>
+            </div>
+            <div class="timeline">
+                <div *ngFor="let item of experience; let i = index" class="timeline-row">
+                    <div class="timeline-time">
+                        {{item.duration}}
+                    </div>
+                    <div class="timeline-content">
+                        <div class="card bg-deep-blue shadow-sm">
+                            <div class="card-header font-22" data-toggle="collapse"
+                                [attr.href]="'#collapseExample' + i">
+                                <div class="text-blue">{{item.company}}</div>
+                                <div class="text-gray">{{item.position}}</div>
+                            </div>
+                            <div id="collapseExample{{i}}" class="collapse">
+                                <div class="card-body text-gray font-18">
+                                    <p *ngFor="let line of item.description">{{line}}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-    </div>
-</div>
-<div class="m-0 bg-deep-blue d-flex align-items-center mt-5">
-    <div class="container">
-        <div class="row text-center text-purple mb-5">
-            <div class="col-12 font-25">
-                <span class="material-icons material-icons-outlined">collections_bookmark</span>
-                Portfolio
-            </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <a href="https://github.com/PranayNagavolu/Encrypted-Messaging-System" class="card-link" target="_blank">
-                    <div class="card my-2 bg-deep-blue text-white shadow-lg" style="width: 18rem;">
-                        <img src="/assets/CN project.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">The Secure Communication Protocol employs RSA and AES for encrypted exchanges between Node A and Node B. Both nodes generate RSA keys, sharing public keys via a Trusted Third Party server. After initial challenges and responses using mixed key encryption, they derive a shared AES key, enabling encrypted chat sessions.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <a href="https://github.com/PranayNagavolu/fake-news-detection" class="card-link" target="_blank">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card my-2 bg-deep-blue text-white shadow-lg" style="width: 18rem;">
-                        <img src="/assets/NLP project.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">This project uses BERT for news classification, distinguishing fake from real news. BERT's non-directional processing allows understanding of context in text, improving prediction accuracy.</p>
-                        </div>
-                      </div>
+    </div>
+    <div class="m-0 bg-deep-blue mt-5">
+        <div class="container">
+            <div class="row text-center text-purple mb-5">
+                <div class="col-12 font-25">
+                    <span class="material-icons material-icons-outlined">collections_bookmark</span>
+                    Portfolio
                 </div>
-            </a>
-            <div class="col-md-4 col-sm-12">
-                <a href="https://github.com/SaiDevPrakashJ/AUTOMOBILE_SALES-AND-SERVICE-DATABASE-PROJECT" class="card-link" target="_blank">
-                    <div class="card my-2 bg-deep-blue text-white shadow-lg"  style="width: 18rem;">
-                        <img src="/assets/FDB project.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">An online car dealership, crafted using Angular for a dynamic user interface, Bootstrap for responsive design, and SQL for robust data management. Our platform welcomes new and returning customers to an immersive online dealership experience, offering personalized deals, coupon incentives, and a comprehensive service tracking system to streamline your automotive journey.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                    <a href="https://github.com/PranayNagavolu/Encrypted-Messaging-System" class="card-link"
+                        target="_blank">
+                        <div class="card my-2 bg-deep-blue text-white shadow-lg" style="width: 18rem;">
+                            <img src="/assets/CN project.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">The Secure Communication Protocol employs RSA and AES for encrypted
+                                    exchanges between Node A and Node B. Both nodes generate RSA keys, sharing public
+                                    keys via a Trusted Third Party server. After initial challenges and responses using
+                                    mixed key encryption, they derive a shared AES key, enabling encrypted chat
+                                    sessions.</p>
+                            </div>
                         </div>
-                      </div>
-                </a>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                    <a href="https://github.com/PranayNagavolu/fake-news-detection" class="card-link" target="_blank">
+                        <div class="card my-2 bg-deep-blue text-white shadow-lg" style="width: 18rem;">
+                            <img src="/assets/NLP project.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">This project uses BERT for news classification, distinguishing fake
+                                    from real news. BERT's non-directional processing allows understanding of context in
+                                    text, improving prediction accuracy.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                    <a href="https://github.com/SaiDevPrakashJ/AUTOMOBILE_SALES-AND-SERVICE-DATABASE-PROJECT"
+                        class="card-link" target="_blank">
+                        <div class="card my-2 bg-deep-blue text-white shadow-lg" style="width: 18rem;">
+                            <img src="/assets/FDB project.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">An online car dealership, crafted using Angular for a dynamic user
+                                    interface, Bootstrap for responsive design, and SQL for robust data management. Our
+                                    platform welcomes new and returning customers to an immersive online dealership
+                                    experience, offering personalized deals, coupon incentives, and a comprehensive
+                                    service tracking system to streamline your automotive journey.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
-
