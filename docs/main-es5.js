@@ -75,10 +75,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var routes = [{
       path: '',
-      redirectTo: 'landing',
-      pathMatch: 'full'
-    }, {
-      path: 'landing',
       component: _landing_landing_component__WEBPACK_IMPORTED_MODULE_2__["LandingComponent"]
     }];
 
