@@ -81,5 +81,26 @@ export class LandingComponent implements OnInit {
       'IMITOR 2k18']
     },
   ]
+  projects = [
+    {
+      title_image: 'CN project.png',
+      title: 'Encrypted Messaging System',
+      description: 'The Secure Communication Protocol employs RSA and AES for encrypted exchanges between Node A and Node B. Both nodes generate RSA keys, sharing public keys via a Trusted Third Party server. After initial challenges and responses using mixed key encryption, they derive a shared AES key, enabling encrypted chat sessions.',
+      link: 'https://github.com/PranayNagavolu/Encrypted-Messaging-System'
+    },
+    {
+      title_image: 'NLP project.png',
+      title: 'Fake news detection',
+      description: "This project uses BERT for news classification, distinguishing fake from real news. BERT's non-directional processing allows understanding of context in text, improving prediction accuracy.",
+      link: 'https://github.com/PranayNagavolu/fake-news-detection'
+    },
+    {
+      title_image: 'FDB project.png',
+      title: 'E-commerce car dealership',
+      description: 'An online car dealership, crafted using Angular for a dynamic user interface, Bootstrap for responsive design, and SQL for robust data management. Our platform welcomes new and returning customers to an immersive online dealership experience, offering personalized deals, coupon incentives, and a comprehensive service tracking system to streamline your automotive journey.',
+      link: 'https://github.com/SaiDevPrakashJ/AUTOMOBILE_SALES-AND-SERVICE-DATABASE-PROJECT'
+    }
+
+  ]
 
 }
