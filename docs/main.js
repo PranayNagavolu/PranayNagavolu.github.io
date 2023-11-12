@@ -255,13 +255,13 @@ function LandingComponent_div_142_p_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", line_r4, " ");
 } }
 function LandingComponent_div_142_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 58);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 59);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 60);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 59);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 60);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 61);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -269,9 +269,9 @@ function LandingComponent_div_142_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 62);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, LandingComponent_div_142_p_12_Template, 2, 1, "p", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, LandingComponent_div_142_p_12_Template, 2, 1, "p", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -357,7 +357,7 @@ class LandingComponent {
     }
 }
 LandingComponent.ɵfac = function LandingComponent_Factory(t) { return new (t || LandingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"])); };
-LandingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LandingComponent, selectors: [["app-landing"]], decls: 172, vars: 3, consts: [[1, "container"], ["id", "about", 1, "container", "bg-deep-blue", 2, "height", "fit-content"], [1, "row", "d-flex", "align-items-center", "mt-6"], [1, "col-12", "col-sm-8", "col-md-4", "mx-auto", "px-5", "px-md-2"], ["src", "assets/hoodie.jpg", "alt", "Sri Pranay Nagavolu", 1, "img-fluid", 2, "border-radius", "20px"], [1, "font-25", "text-white"], [1, "col-sm-12", "offset-1", "col-md-7", "my-4", "font-22", "font-weight-light", "text-gray"], [1, "font-25", "text-blue"], [1, "mt-2"], [1, "text-blue"], [1, "text-white"], ["data-toggle", "modal", "data-target", "#pdfModal", 1, "btn", "btn-primary", "bg-deep-blue", "mt-2", "d-none", "d-md-block"], [1, "btn", "btn-primary", "bg-deep-blue", "mt-2", "d-block", "d-md-none", 3, "click"], ["id", "pdfModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "pdfModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content", "bg-deep-blue"], [1, "modal-header", "text-white", "border-0", "shadow-2"], ["id", "pdfModalLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true", 1, "text-white"], [1, "modal-body"], ["width", "100%", "height", "600px", "frameborder", "0", "scrolling", "no", "allowfullscreen", "", 3, "src"], [1, "container", "bg-deep-blue", "mt-6"], [1, "row", "text-center", "text-green"], [1, "col-12", "font-25", "mb-3", "mb-md-5"], [1, "material-icons", "material-icons-outlined"], [1, "row", "text-center", "font-18"], [1, "col-12", "col-md-4", "mb-3", "mb-md-5", "px-2"], [1, "text-gray"], ["id", "skills", 1, "m-0", "bg-deep-blue", "d-flex", "align-items-center", "mt-5"], [1, "row", "mb-3", "mb-md-5", "text-center", "text-purple"], [1, "col", "font-25"], [1, "row", "d-flex", "text-center", "font-18"], [1, "col-sm-12", "col-md-4"], [1, "text-white", "mb-2"], [1, "text-gray", "text-center"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "py-1"], ["id", "works", 1, "m-0", "bg-deep-blue", "d-flex", "align-items-center", "mt-5"], [1, "row", "text-center", "text-green", "mb-5"], [1, "col-12", "font-25"], [1, "timeline"], ["class", "timeline-row", 4, "ngFor", "ngForOf"], [1, "m-0", "bg-deep-blue", "mt-5"], [1, "row", "text-center", "text-purple", "mb-5"], [1, "row"], [1, "col-md-4", "col-sm-12", "d-flex", "justify-content-center"], ["href", "https://github.com/PranayNagavolu/Encrypted-Messaging-System", "target", "_blank", 1, "card-link"], [1, "card", "my-2", "bg-deep-blue", "text-white", "shadow-lg", 2, "width", "18rem"], ["src", "/assets/CN project.png", "alt", "...", 1, "card-img-top"], [1, "card-body"], [1, "card-text"], ["href", "https://github.com/PranayNagavolu/fake-news-detection", "target", "_blank", 1, "card-link"], ["src", "/assets/NLP project.png", "alt", "...", 1, "card-img-top"], ["href", "https://github.com/SaiDevPrakashJ/AUTOMOBILE_SALES-AND-SERVICE-DATABASE-PROJECT", "target", "_blank", 1, "card-link"], ["src", "/assets/FDB project.png", "alt", "...", 1, "card-img-top"], [1, "timeline-row"], [1, "timeline-time"], [1, "timeline-content"], [1, "card", "bg-deep-blue", "shadow-sm"], ["data-toggle", "collapse", 1, "card-header", "font-22"], [1, "collapse", 3, "id"], [1, "card-body", "text-gray", "font-18"], [4, "ngFor", "ngForOf"]], template: function LandingComponent_Template(rf, ctx) { if (rf & 1) {
+LandingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LandingComponent, selectors: [["app-landing"]], decls: 172, vars: 3, consts: [[1, "container"], ["id", "about", 1, "container", "bg-deep-blue", 2, "height", "fit-content"], [1, "row", "d-flex", "align-items-center", "mt-6"], [1, "col-12", "col-sm-8", "col-md-4", "mx-auto", "px-5", "px-md-2"], ["src", "assets/hoodie.jpg", "alt", "Sri Pranay Nagavolu", 1, "img-fluid", 2, "border-radius", "20px"], [1, "font-25", "text-white"], [1, "col-sm-12", "offset-1", "col-md-7", "my-4", "font-22", "font-weight-light", "text-gray"], [1, "font-25", "text-blue"], [1, "mt-2"], [1, "text-blue"], [1, "text-white"], ["data-toggle", "modal", "data-target", "#pdfModal", 1, "btn", "btn-primary", "bg-deep-blue", "mt-2", "d-none", "d-md-block"], [1, "btn", "btn-primary", "bg-deep-blue", "mt-2", "d-block", "d-md-none", 3, "click"], ["id", "pdfModal", "tabindex", "-1", "role", "dialog", "aria-labelledby", "pdfModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content", "bg-deep-blue"], [1, "modal-header", "text-white", "border-0", "shadow-2"], ["id", "pdfModalLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true", 1, "text-white"], [1, "modal-body"], ["width", "100%", "height", "600px", "frameborder", "0", "scrolling", "no", "allowfullscreen", "", 3, "src"], [1, "container", "bg-deep-blue", "mt-6"], [1, "row", "text-center", "text-green"], [1, "col-12", "font-25", "mb-3", "mb-md-5"], [1, "material-icons", "material-icons-outlined"], [1, "row", "text-center", "font-18"], [1, "col-12", "col-md-4", "mb-3", "mb-md-5", "px-2"], [1, "text-gray"], ["id", "skills", 1, "m-0", "bg-deep-blue", "d-flex", "align-items-center", "mt-5"], [1, "row", "mb-3", "mb-md-5", "text-center", "text-purple"], [1, "col", "font-25"], [1, "row", "d-flex", "text-center", "font-18"], [1, "col-sm-12", "col-md-4"], [1, "text-white", "mb-2"], [1, "text-gray", "text-center"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "py-1"], ["id", "works", 1, "m-0", "bg-deep-blue", "d-flex", "align-items-center", "mt-5"], [1, "row", "text-center", "text-green", "mb-5"], [1, "col-12", "font-25"], [1, "timeline"], ["class", "timeline-row", 4, "ngFor", "ngForOf"], [1, "m-0", "bg-deep-blue", "mt-5"], ["id", "portfolio", 1, "container"], [1, "row", "text-center", "text-purple", "mb-5"], [1, "row"], [1, "col-md-4", "col-sm-12", "d-flex", "justify-content-center"], ["href", "https://github.com/PranayNagavolu/Encrypted-Messaging-System", "target", "_blank", 1, "card-link"], [1, "card", "my-2", "bg-deep-blue", "text-white", "shadow-lg", 2, "width", "18rem"], ["src", "/assets/CN project.png", "alt", "...", 1, "card-img-top"], [1, "card-body"], [1, "card-text"], ["href", "https://github.com/PranayNagavolu/fake-news-detection", "target", "_blank", 1, "card-link"], ["src", "/assets/NLP project.png", "alt", "...", 1, "card-img-top"], ["href", "https://github.com/SaiDevPrakashJ/AUTOMOBILE_SALES-AND-SERVICE-DATABASE-PROJECT", "target", "_blank", 1, "card-link"], ["src", "/assets/FDB project.png", "alt", "...", 1, "card-img-top"], [1, "timeline-row"], [1, "timeline-time"], [1, "timeline-content"], [1, "card", "bg-deep-blue", "shadow-sm"], ["data-toggle", "collapse", 1, "card-header", "font-22"], [1, "collapse", 3, "id"], [1, "card-body", "text-gray", "font-18"], [4, "ngFor", "ngForOf"]], template: function LandingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -585,8 +585,8 @@ LandingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "div", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "div", 45);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "div", 40);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "span", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "collections_bookmark");
@@ -594,37 +594,37 @@ LandingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, " Portfolio ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "div", 45);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "a", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "div", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "img", 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "div", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "p", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "div", 46);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "a", 48);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "div", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "img", 50);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "div", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "p", 52);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "The Secure Communication Protocol employs RSA and AES for encrypted exchanges between Node A and Node B. Both nodes generate RSA keys, sharing public keys via a Trusted Third Party server. After initial challenges and responses using mixed key encryption, they derive a shared AES key, enabling encrypted chat sessions.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "div", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "a", 52);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "div", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](161, "img", 53);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "div", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "p", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "div", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "a", 53);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "div", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](161, "img", 54);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "div", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "p", 52);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, "This project uses BERT for news classification, distinguishing fake from real news. BERT's non-directional processing allows understanding of context in text, improving prediction accuracy.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "div", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "a", 54);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "div", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "img", 55);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "p", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "div", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "a", 55);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "div", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "img", 56);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "p", 52);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](171, "An online car dealership, crafted using Angular for a dynamic user interface, Bootstrap for responsive design, and SQL for robust data management. Our platform welcomes new and returning customers to an immersive online dealership experience, offering personalized deals, coupon incentives, and a comprehensive service tracking system to streamline your automotive journey.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -693,7 +693,7 @@ class NavbarComponent {
     }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(); };
-NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 19, vars: 0, consts: [[1, "row", "fixed-top", "bg-deep-blue", "m-0", "shadow", "p-3"], [1, "navbar", "navbar-expand-lg", "navbar-dark", "fixed-top", "bg-deep-blue"], ["href", "#", 1, "navbar-brand", "d-flex", "align-items-center", "text", "text-blue"], [1, "material-icons"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarNavDropdown", "aria-controls", "navbarNavDropdown", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNavDropdown", 1, "collapse", "navbar-collapse", "text-gray"], [1, "navbar-nav", "ml-auto"], [1, "nav-item"], ["href", "#education", 1, "nav-link"], ["href", "#skills", 1, "nav-link"], ["href", "#works", 1, "nav-link"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 22, vars: 0, consts: [[1, "row", "fixed-top", "bg-deep-blue", "m-0", "shadow", "p-3"], [1, "navbar", "navbar-expand-lg", "navbar-dark", "fixed-top", "bg-deep-blue"], ["href", "#", 1, "navbar-brand", "d-flex", "align-items-center", "text", "text-blue"], [1, "material-icons"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarNavDropdown", "aria-controls", "navbarNavDropdown", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNavDropdown", 1, "collapse", "navbar-collapse", "text-gray"], [1, "navbar-nav", "ml-auto"], [1, "nav-item"], ["href", "#education", 1, "nav-link"], ["href", "#skills", 1, "nav-link"], ["href", "#works", 1, "nav-link"], ["href", "#portfolio", 1, "nav-link"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -719,7 +719,12 @@ NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Works");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Experience");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Portfolio");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
