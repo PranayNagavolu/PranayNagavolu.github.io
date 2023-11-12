@@ -186,7 +186,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 16, vars: 0, consts: [[1, "container", "mt-5"], [1, "row", "py-4", "d-flex", "align-items-center", "justify-content-center", "shadow-sm"], [1, "col-6", "text-white", "ml-auto", "font-22"], [1, "col-6", "text-gray"], [1, "float-right", "text-center"], ["onclick", " window.open('https://www.linkedin.com/in/pranay-nagavolu/');", 1, "m-2"], ["src", "assets/in.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["href", "mailto:pranay12430.nagavolu@gmail.com", 1, "m-2"], ["src", "assets/mail.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["onclick", " window.open('https://www.instagram.com/pranay_nagavolu/');", 1, "m-2"], ["src", "assets/insta.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["onclick", " window.open('https://gitlab.com/PranayNagavolu');", 1, "m-2"], ["src", "assets/gitlab.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["onclick", " window.open('https://github.com/PranayNagavolu');", 1, "m-2"], ["src", "assets/github.svg", "alt", "", 1, "img-fluid", "pointer", "img-size"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "container", "mt-5"], [1, "row", "py-4", "d-flex", "align-items-center", "justify-content-center", "shadow-sm"], [1, "col-6", "text-white", "ml-auto", "font-22"], [1, "col-6", "text-gray"], [1, "float-right", "text-center"], ["onclick", " window.open('https://www.linkedin.com/in/pranay-nagavolu/');", 1, "m-2"], ["src", "assets/in.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["href", "mailto:pranaynagavolu2000@gmail.com", 1, "m-2"], ["src", "assets/mail.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["onclick", " window.open('https://gitlab.com/PranayNagavolu');", 1, "m-2"], ["src", "assets/gitlab.png", "alt", "", 1, "img-fluid", "pointer", "img-size"], ["onclick", " window.open('https://github.com/PranayNagavolu');", 1, "m-2"], ["src", "assets/github.svg", "alt", "", 1, "img-fluid", "pointer", "img-size"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -205,9 +205,6 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "img", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
