@@ -51,6 +51,13 @@ export class LandingComponent implements OnInit {
       'Training and managing a team of 12 as a lead supervising their work and resolving any internal disputes.']
     },
     {
+      company: 'Working with DeltaNow',
+      position: 'Front-End Software Engineer',
+      duration: 'Apr 2021 to Jun 2022',
+      description: ["Facilitated effective collaboration among design and development teams, reducing Datatrove's product development time by 20% and accelerating feature delivery by 30% for the DoAA Data Management Solution.",
+      'Headed front-end UI development and integration for various product modules, using Bootstrap, Angular, Node, SQL, MongoDB, and Django; improved load times by 50% and enhanced customer retention by 15%.',]
+    },
+    {
       company: 'Working with Caarya',
       position: 'Junior Software Developer',
       duration: 'Oct 2020 to Mar 2021',
@@ -64,13 +71,6 @@ export class LandingComponent implements OnInit {
       description: ['Facilitated a design thinking research program, collaborating with cross-functional teams to redefine problems and discover effective solutions.',
       'Awarded Most Outstanding Student Intern for contributions and leadership and guiding 4 other interns through the internship experience.',
       'Utilized AWS Cloud Services for web operations and demonstrated competence in cloud computing with AWS RDS.']
-    },
-    {
-      company: 'Working with DeltaNow',
-      position: 'Front-End Software Engineer',
-      duration: 'Jun 2020 to Sep 2020',
-      description: ["Facilitated effective collaboration among design and development teams, reducing Datatrove's product development time by 20% and accelerating feature delivery by 30% for the DoAA Data Management Solution.",
-      'Headed front-end UI development and integration for various product modules, using Bootstrap, Angular, Node, SQL, MongoDB, and Django; improved load times by 50% and enhanced customer retention by 15%.',]
     },
     {
       company: 'Work at IEEE Student Chapter',
